@@ -24,12 +24,10 @@ public class Programa extends Candidato {
         int votosEmBranco = 0;
         int votosNulo = 0;
         int votoTotal = 0;
-        int votosCandidato = 0;
         int maior = 0;
         String nome = "";
         String vencedor="";
         String partido ="";
-
 
         while (votos >= 0) {
             if (votos == 12) {
@@ -57,7 +55,7 @@ public class Programa extends Candidato {
             }
             if (votos == 12 || votos == 16 || votos == 18 || votos == 20 || votos == 0 || votos == 1) {
                 votoTotal++;
-                votosCandidato++;
+                votos++;
             }
 
             if(votosMarta > maior) {

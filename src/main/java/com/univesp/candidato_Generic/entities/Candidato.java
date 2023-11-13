@@ -90,3 +90,4 @@ public class Candidato implements Comparable<CandidatoDTO>, Convertible<Candidat
         return new CandidatoDTO(this);
     }
 }
+
